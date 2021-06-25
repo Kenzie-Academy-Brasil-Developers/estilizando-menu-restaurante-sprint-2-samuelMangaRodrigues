@@ -2,13 +2,37 @@
 
 /* Use the 'Lato' font family at 18px throughout the body of the document, and cover the background with the 'map-bg.jpg' image. */
 nav {font-family: sans-serif; font-size: 10px;}
+body{
+    font-family:'Lato', sans-serif;
+    font-size: 18px;
+    background-image:url(./img/map-bg.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
 
-#main {width: 900px; margin: 10px auto;}
+#main {
+    width: 900px;
+    margin:auto;
+    font-size: 20px;
+}
+#main h1{
+    font-family:'Supermercado One',cursiva;
+    color:#5d4037;
+    font-size: 45px;
+    
+
+}
 /* Use the 'Supermercado One' font at 45px (colored #5d4037) for the restaurant name. */
 
 /* Set the separator between the columns (the "column-rule") to be 2px dashed rosybrown. */
-#menu {columns: 400px 2; column-gap: 100px;}
-section {margin-bottom: 50px;}
+#menu {
+    columns: 400px 2;
+    column-gap: 100px;
+    column-rule: 2px  dashed rosybrown;
+}
+section {
+    margin-bottom: 50px;
+}
 
 /* Show each of the section headings of the menu (e.g. "Starters") in small caps, colored #6d4c41. */
 h2 {margin: 0;}
@@ -26,3 +50,49 @@ dd {margin: 0 0 12px 0; display: flex;}
 
 /* Draw a 2px dashed rosybrown border around the address/footer */
 address {padding: 10px;}
+#starters h2{
+   font-variant: small-caps;
+    color: #6d4c41;
+
+}
+#main address{
+    border-style: dashed;
+    border-color: chocolate;
+
+}
+#soupssalads h2 {
+    font-variant: small-caps;
+    color: #6d4c41;
+
+}
+#entrees h2{
+    font-variant: small-caps;
+    color: #6d4c41;
+
+}
+#desserts h2{
+    font-variant: small-caps;
+    color: #6d4c41;
+}
+.price{
+    color:#b22222;
+}
+#entrees{
+    height: 420px;
+}
+#starters dt{
+    font-weight: bold;
+    font-size: 20px;
+}
+#soupssalads dt{
+    font-weight: bold;
+    font-size: 20px;
+}
+#entrees dt{
+    font-weight: bold;
+    font-size: 20px;
+}
+#desserts dt{
+    font-weight: bold;
+    font-size: 20px;
+}
