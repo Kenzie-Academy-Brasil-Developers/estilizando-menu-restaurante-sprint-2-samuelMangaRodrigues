@@ -59,6 +59,9 @@ h2 {margin-top: 0;}
     font-weight: bold;
     font-size: 16px;
 }
+#menu dt::after{
+content:",";
+}
 dt {display: inline;}
 /* Make a comma appear after the name of each menu item (before the description) */
 
